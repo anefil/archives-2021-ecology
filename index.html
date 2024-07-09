@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Екологія України</title>
+    <style>
+        body, html {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        section {
+            width: 100%;
+            min-height: 600px;
+        }
+
+        #sec1 {
+            background-image: url(./some.jpg);
+            background-size: cover;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            height: auto;
+        }
+
+        #sec1 > #wrapper {
+            background-color: rgba(255, 255, 255, .4);
+            backdrop-filter: blur(2px);
+            padding: 40px 20%;
+        }
+        @media (min-width:900px) {
+            
+            #sec1 h2 {
+                font-size: 54pt;
+                font-weight: 900;
+            }
+            
+            #sec1 h5 {
+                font-size: 30pt;
+                font-weight: 400;
+                font-style: italic;
+            }   
+        }
+        @media (max-width:685px) {
+            
+            #sec1 h2 {
+                font-size: 40pt;
+                font-weight: 900;
+            }
+            
+            #sec1 h5 {
+                font-size: 20pt;
+                font-weight: 400;
+                font-style: italic;
+            }   
+        }
+        @media (min-width:685px) and (max-width:920px) {
+            
+            #sec1 h2 {
+                font-size: 44pt;
+                font-weight: 900;
+            }
+            
+            #sec1 h5 {
+                font-size: 20pt;
+                font-weight: 400;
+                font-style: italic;
+            }   
+        }
+
+        #sec3 {
+            margin-top: 60px;
+            display: flex;
+            flex-direction: row;
+            align-items: stretch;
+            justify-content: space-around;
+        }
+
+        #sec3 > .divide {
+            background-color: rgb(129, 180, 149);
+            flex-basis: 30%;
+            text-align: center;
+            padding: 5px 20px;
+            box-sizing: border-box;
+            border-radius: 15px;
+        }
+
+        .divide > h3 {
+            font-size: 25pt;
+            font-weight: 700;
+        }
+        
+        .divide > p {
+            font-size: 17pt;
+            font-weight: 400;
+        }
+
+        #sec2 {
+            box-sizing: border-box;
+            margin: 20px 2.5%;
+            width: 95%;
+            background-color: rgb(250, 250, 250);
+            box-shadow: 0px 6px 12px 2px rgba(0,0,0,.6);
+            border-radius: 15px;
+            padding: 10px 30px;
+            font-size: 22pt;
+            font-weight: 400;
+        }
+
+        .m {
+            background-color: rgba(246, 235, 75, 0.815);
+        }
+
+        #sec4 {
+            box-sizing: border-box;
+            margin: 20px 0;
+            width: 100%;
+            padding: 10px 30px;
+            font-size: 22pt;
+            font-weight: 400;
+        }
+
+        #sec4 > ul > li {
+            background-color: rgba(244, 246, 78, 0.856);
+            width: fit-content;
+        }
+
+        footer {
+            margin-top: 160px;
+            margin-bottom: 40px;
+            font-size: 18pt;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <section id="sec1">
+        <div id="wrapper">
+            <h2>Природу легко обібрати, якщо ти маєш душу ката</h2>
+            <h5>Сайт до дня свідомості екології твоєї Батьківщини</h5>
+        </div>
+    </section>
+
+    <section id="sec2" style="height:fit-content;">
+        <p>Наразі стан природи у всьому світі залишає бажати кращого: 
+            нафта розлита по морю, замість туману рано-вранці смог встає, 
+            а бджоли не можуть визначитись, коли слід мід збирати. <br>
+            <strong>Що ж саме відбуваєтсья в Україні?</strong> <br>
+            Наразі в Україні екологічну ситуацію характеризують кризовою.
+            Хоча й кількість заводів зменшилася, водночас зменшивши викиди на мільйони тонн за 13 років, але це становить лише 10%
+            від загальної кількості викидів. <br> <img src="./auto.webp" alt="" srcset="" style="float: right; max-width: 40%;">
+            Поглянте у вікно: з шостої ранку автомобілі вже щільною колоною 
+            напрямлені у центр. Окрім кількості авто, звернемо увагу й на самі автомобілі: 
+            <span class="m">наразі в Україні дуже багато автомобілів 20-літньої давньості.</span>
+            Такі давні машини не відповідають сучасним європейским стандартам безпеки!
+            <br> Далі переходимо до наших річок, особливо річки Дніпро: <br>
+            Деякі експерти вважають, що до початкового, природного стану річку Дніпро вже не повернути.
+            Внесок у такий стан надходив від <span class="m">промисловості</span>, яка вибрасивала свої відходи у річку, а також від аграрної промисловості,
+            а точніше сучасних <span class="m">хімікатів для обробки землі</span> (процес <em>меліорації</em>).<br><br>
+            <strong>Не забуваємо врахувати й климатічні зміни у світі:</strong>
+                <br> Через збільшення температури 
+            Землі на 1 градус у світі частота стихійних явищ зросла у <span class="m">3 рази</span>.
+            Землетруси, цунамі, перепаді від засухи до злив, запізніла зима - все це є наслідком глобального потепління.
+        </p>
+    </section>
+
+    <section id="sec4">
+        Зрозуміло, що усі ці біди походять від
+        <ol>
+         <li> Погоні за грошима володарів певних підприємств</li>
+         <li> Неосвіченості суспільства щодо цього питання</li>
+        </ol>
+        <h3>Але що саме можеш зробити ти?</h3>
+        <ul>
+            <li>Сміття</li>
+            <p>Почнемо з етикету: не бросай сміття на дорозі! Влаштовуй суботники разом з друзями/однолкласниками/ліцеїстами.
+                Вдома намагайся сортувати сміття: папір до одного пакету, пластик - до іншого. Наразі у м. Дніпрі не влаштовані 
+                окремі сміттєзбірники, але стекло можна віддати у відповідний приймальний пункт, наприклад.
+            </p>
+            <li>Осінні листя</li>
+            <p>Хоча ввели штрафи против паління листів, у дачних районах продовжують спалювати великі купи листів.</p>
+            <li>Національна усвідомленість</li>
+            <img src="./біл.jpg" alt="" srcset="" style="float: right; width: 30%;">
+            <p>Розмовляй більше на дані теми з знайомими, розповсюджуй короткі факти у соц. мережах - 
+                роби все, щоб суспільство почало думати про себе. Також варто порадити прочитати відповідну літературу, наприклад
+                "Як відвернути климатичну катастрофу" (Білл Ґейтс).
+            </p>
+        </ul>
+    </section>
+
+    <footer>
+        <div class="left">Дякую за прочитання!</div>
+        <div class="right">Автор: Філатов Єгор, 2021 р.</div>
+    </footer>
+</body>
+</html>
+
